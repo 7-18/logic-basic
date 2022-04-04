@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto 02 - Módulo 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script
+    src="https://kit.fontawesome.com/6dda3ec7ac.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <div class="container">
+      <div>
+        <label for="num1">1er Número</label
+        ><input type="number" id="num1" placeholder="Número Positivo" />
+      </div>
+      <div>
+        <label for="num2">2do Número</label
+        ><input type="number" id="num2" placeholder="Número Positivo" />
+      </div>
+    </div>
+    <div class="container-operations">
+      <div class="operations">
+        <span class="operations-title"
+          >Hallar el menor de dos números enteros positivos</span
+        ><i class="fas fa-angle-left"></i
+        ><button class="result" id="btn1">Ver resultado</button>
+      </div>
+      <div class="operations">
+        <span class="operations-title"
+          >Determinar si los números ingresados son iguales</span
+        ><i class="fas fa-equals"></i
+        ><button class="result" id="btn2">Ver resultado</button>
+      </div>
+      <div class="operations">
+        <span class="operations-title"
+          >Intercambiar los valores de los números</span
+        ><i class="fas fa-exchange-alt"></i
+        ><button class="result" id="btn3">Ver resultado</button>
+      </div>
+      <div class="operations">
+        <span class="operations-title">Sumar los dos números</span
+        ><i class="fas fa-plus"></i
+        ><button class="result" id="btn4">Ver resultado</button>
+      </div>
+    </div>
+    <div class="alert hide">
+      <span class="closeBtn">&times;</span>
+      <br />
+      <p class="message"></p>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
